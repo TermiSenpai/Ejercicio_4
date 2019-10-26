@@ -1,0 +1,28 @@
+/*Realizar un algoritmo que calcule la media de tres números reales introducidos por el usuario. . Los
+datos de entrada se introducirán en la declaración de las variables. */
+
+#include<iostream>
+
+using namespace std;
+
+int main() {
+    float a;
+    float b;
+    float c;
+    float media;
+
+    cout<<"\n\tIntroduzca el primer valor: ";
+    cin>>a;
+    cout<<"\n\tIntroduzca el segundo valor: ";
+    cin>>b;
+    cout<<\n\tIntroduzca el tercer valor: ";
+    cin>>c;
+
+    media = (a + b + c) / 3;
+
+    cout<<"\n\tLa media de los 3 valores es: "<<media<<endl;
+
+    system(pause);
+
+    return 0;
+}
