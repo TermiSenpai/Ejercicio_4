@@ -22,7 +22,7 @@ int main() {
 
     cout<<"\n\tLa media de los 3 valores es: "<<media<<endl;
 
-    system(pause);
+    system("pause");
 
     return 0;
 }
